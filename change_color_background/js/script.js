@@ -10,7 +10,6 @@ button.addEventListener('click', changeBackground);
 function changeBackground(){
     const colorIndex = parseInt(Math.random()*colors.length);
     value.textContent = colors[colorIndex];
-    console.log(value.textContent);
     body.style.backgroundColor = colors[colorIndex];
 }
 
