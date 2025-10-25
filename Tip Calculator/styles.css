@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: fit-content;
+    border-radius: 20px;
+    box-shadow: 2cm 2cm 5cm rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+}
+
+#id-button {
+    background-color: teal;
+}
